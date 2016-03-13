@@ -87,3 +87,30 @@ footer {
 */
 
 /* Write your CSS here */
+
+figure {
+  width: 300px;
+  float: right;
+  margin-right: -8rem;
+  padding-top: 0.25rem;
+  border-top: 2px solid black;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid black;
+  margin-left: 1rem;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+blockquote {
+  width: 300px;
+  float: left;
+  margin-left: -8rem;
+  padding-top: 0.25rem;
+  border-top: 2px solid black;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid black;
+  text-align: right;
+  margin-right: 1rem;
+}
