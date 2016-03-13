@@ -114,3 +114,16 @@ blockquote {
   text-align: right;
   margin-right: 1rem;
 }
+
+p:first-child::first-letter {
+  background-color: #666;
+  float: left;
+  font-size: 5rem;
+  font-style: normal;
+  padding: 1rem;
+  margin-left: -3rem;
+  color: white;
+  margin-right: 0.5rem;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
